@@ -4,20 +4,22 @@
 
 ## 内容
 
-| プロジェクト名 | 説明 |
-|:------------- |:-------------- |
-|class          |　class(敵クラス) |
-|dynamic_array  | 動的な配列 |
-|function       | 関数 |
-|GamepadInput   | いろいろな入力インターフェース (ゲームパッド入力) |
-|KeyboardInput  | いろいろな入力インターフェース (キーボード入力) |
-|savedata       | セーブデータ管理 |
-|Scene          | シーン(class) |
-|simple_class   | class(ねこです) |
-|texture_sound  | 画像と音声 |
-|WiimoteInput   | いろいろな入力インターフェース (Wiiリモコン) |
-|YokoScroll     | 横スクロールサンプルゲーム (コピペです) |
-|YokoScroll_rev | 横スクロールサンプルゲーム (ちょっといじったもの) |
+| プロジェクト名     | 説明 |
+|:----------------- |:-------------- |
+|class              |　class(敵クラス) |
+|dynamic_array      | 動的な配列 |
+|function           | 関数 |
+|GamepadInput       | いろいろな入力インターフェース (ゲームパッド入力) |
+|KeyboardInput      | いろいろな入力インターフェース (キーボード入力) |
+|NetworkClient      | ネットワーク通信 |
+|savedata           | セーブデータ管理 |
+|Scene              | シーン(class) |
+|simple_class       | class(ねこです) |
+|TcpBroadcastServer | ネットワーク通信の為のTCPサーバ (C#) |
+|texture_sound      | 画像と音声 |
+|WiimoteInput       | いろいろな入力インターフェース (Wiiリモコン) |
+|YokoScroll         | 横スクロールサンプルゲーム (コピペです) |
+|YokoScroll_rev     | 横スクロールサンプルゲーム (ちょっといじったもの) |
 
 ## 注意
 
@@ -27,6 +29,9 @@
 
 - プロジェクト「YokoScroll」は完全にこちらのコピー＆ペーストです。  
   <https://qiita.com/hamukun8686/items/4620d630b538c78a6e02>
+
+- プロジェクト「NetworkClient」内ではAscTCPStringを使用しています。  
+  <https://github.com/ChunChunMorning/AscTCPString>
 
 ## ライセンス
 
