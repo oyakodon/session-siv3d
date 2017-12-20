@@ -26,7 +26,7 @@ private:
 
 int main()
 {
-	Cat neko("‚Ë‚±");
+	Cat neko("‚Ü‚¾‚È‚¢");
 
 	neko.Greet();
 
